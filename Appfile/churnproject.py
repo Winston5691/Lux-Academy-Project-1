@@ -7,11 +7,12 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, roc_auc_score
 
-# Define the path to your data folder
+# Define the path to your data folder and file
 data_folder = r'C:\Users\Njeri\Downloads\LuxProject1\Data'
+data_file = 'telecom_churn.csv'
+data_path = data_folder + '\\' + data_file
 
 # Load the dataset from your local directory
-data_path = data_folder + r'\telecom_churn.csv'
 df = pd.read_csv(data_path)
 
 # Data Exploration and Preprocessing
@@ -25,6 +26,9 @@ print(df.isnull().sum())
 label_encoder = LabelEncoder()
 df['International plan'] = label_encoder.fit_transform(df['International plan'])
 df['Voice mail plan'] = label_encoder.fit_transform(df['Voice mail plan'])
+
+# Drop the "State" column as it's non-numeric and may not be relevant for prediction
+df.drop('State', axis=1, inplace=True)
 
 # Split the dataset into features (X) and the target variable (y)
 X = df.drop('Churn', axis=1)
