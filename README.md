@@ -34,10 +34,7 @@ Before running the code, ensure you have the following libraries installed in yo
 - [scikit-learn](https://scikit-learn.org/stable/)
 
 You can install these libraries using pip if they are not already installed:
-
-```bash
 pip install pandas numpy matplotlib scikit-learn
-
 
 <h2>Data Preparation</h2>
 The dataset has been stored in a folder named "Data" within the project directory.
