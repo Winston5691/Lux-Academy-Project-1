@@ -48,6 +48,7 @@ Run the script to execute the following steps:
 
 <h1 align="center"> Code Explanation</a></h1>
 <h1>Import necessary libraries</h1>
+<br>
 <kbd>
 <ol>
 <li>import pandas as pd</li>
@@ -59,6 +60,7 @@ Run the script to execute the following steps:
 <li>from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, roc_auc_score</li>
 </ol>
 </kbd>
+</br>
 This part imports the necessary Python libraries and modules for data manipulation, visualization, machine learning, and model evaluation.
 
 <h2>Contributors</h2>
