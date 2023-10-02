@@ -1,10 +1,10 @@
 <h1 align="center"> <kbd> Lux-Academy-Project-1</kbd> </a></h1>
 
-**Telecom Customer Churn Prediction**
-**_Overview_**
+<h1> **Telecom Customer Churn Prediction**</h1>
+<h2> **_Overview_**</h2>
 This Python script is designed to predict customer churn for a telecom company using machine learning. It utilizes a dataset containing customer information, including various features such as account length, area code, international plan, voice mail plan, and more. The goal is to build a predictive model that can identify customers who are likely to leave (churn) and take proactive measures to retain them.
 
-**_Prerequisites_**
+<h2>**_Prerequisites_**</h2> 
 Before running the code, ensure you have the following libraries installed in your Python environment:
 
 pandas
