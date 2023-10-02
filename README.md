@@ -63,6 +63,43 @@ Run the script to execute the following steps:
 </br>
 This part imports the necessary Python libraries and modules for data manipulation, visualization, machine learning, and model evaluation.
 
+<h1>Define the path to the data folder and file</h1>
+<br>
+<kbd>
+<ol>
+<li>data_folder = r'C:\Users\Njeri\Downloads\LuxProject1\Data'</li>
+<li>data_file = 'telecom_churn.csv'</li>
+<li>data_path = data_folder + '\\' + data_file</li>
+</ol>
+</kbd>
+</br>
+These lines define the path to the folder containing your dataset and specify the data file's name. It then creates the full data path by combining the folder and file names.
+
+<h1># Load the dataset from your local directory</h1>
+<br>
+<kbd>
+<ol>
+<li>df = pd.read_csv(data_path)</li>
+</ol>
+</kbd>
+</br>
+This code uses Pandas to read the CSV dataset located at the specified data_path and stores it in a DataFrame named df.
+
+<h1>Data Exploration and Preprocessing</h1>
+<h1>Check the first few rows of the dataset</h1>
+<br>
+<kbd>
+<ol>
+<li>data_folder = print(df.head())</li>
+</ol>
+</kbd>
+<h1>Check for missing values</h1>
+<li>print(df.isnull().sum())</li>
+</br>
+These lines provide data exploration and preprocessing steps:
+- df.head() prints the first few rows of the DataFrame to understand the structure of the dataset.
+- df.isnull().sum() checks for missing values in the dataset and prints the count of missing values for each column.
+
 <h2>Contributors</h2>
 - Winston Langat
 <h2>License</h2>
