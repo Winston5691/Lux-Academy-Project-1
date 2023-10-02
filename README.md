@@ -48,7 +48,6 @@ Run the script to execute the following steps:
 
 <h1 align="center"> Code Explanation</a></h1>
 <h1>Import necessary libraries</h1>
-<kbd>
 <ol>
 <l1>import pandas as pd</l1>
 <l1>import numpy as np</l1>
@@ -58,7 +57,6 @@ Run the script to execute the following steps:
 <l1>from sklearn.ensemble import RandomForestClassifier</l1>
 <l1>from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, roc_auc_score</l1>
 </ol>
-</kbd>
 This part imports the necessary Python libraries and modules for data manipulation, visualization, machine learning, and model evaluation.
 
 <h2>Contributors</h2>
