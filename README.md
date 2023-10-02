@@ -94,7 +94,12 @@ This code uses Pandas to read the CSV dataset located at the specified data_path
 </ol>
 </kbd>
 <h1>Check for missing values</h1>
+<kbd>
+<ol>
 <li>print(df.isnull().sum())</li>
+</ol>
+</kbd>
+
 </br>
 These lines provide data exploration and preprocessing steps:
 - df.head() prints the first few rows of the DataFrame to understand the structure of the dataset.
