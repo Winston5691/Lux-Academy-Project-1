@@ -34,8 +34,7 @@ Before running the code, ensure you have the following libraries installed in yo
 - [scikit-learn](https://scikit-learn.org/stable/)
 
 You can install these libraries using pip if they are not already installed:
-pip install pandas numpy matplotlib scikit-learn
-
+<ol><l1>pip install pandas numpy matplotlib scikit-learn</l1></ol>
 <h2>Data Preparation</h2>
 The dataset has been stored in a folder named "Data" within the project directory.
 Update the data_folder and data_file variables to specify the path to your data file.
@@ -50,13 +49,15 @@ Run the script to execute the following steps:
 <h1 align="center"> Code Explanation</a></h1>
 <h1>Import necessary libraries</h1>
 <kbd>
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder, StandardScaler
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, roc_auc_score
+<ol>
+<l1>import pandas as pd</l1>
+<l1>import numpy as np</l1>
+<l1>import matplotlib.pyplot as plt</l1>
+<l1>from sklearn.model_selection import train_test_split</l1>
+<l1>from sklearn.preprocessing import LabelEncoder, StandardScaler</l1>
+<l1>from sklearn.ensemble import RandomForestClassifier</l1>
+<l1>from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, roc_auc_score</l1>
+</ol>
 </kbd>
 This part imports the necessary Python libraries and modules for data manipulation, visualization, machine learning, and model evaluation.
 
