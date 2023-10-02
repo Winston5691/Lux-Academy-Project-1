@@ -6,17 +6,15 @@ This Python script is designed to predict customer churn for a telecom company u
 
 <h2>Prerequisites</h2> 
 Before running the code, ensure you have the following libraries installed in your Python environment:
-
-pandas
-numpy
-matplotlib
-scikit-learn
+1. pandas
+2. numpy
+3. matplotlib
+4. scikit-learn
 You can install these libraries using pip if they are not already installed:
+1. bash
+2. Copy code
+3. pip install pandas numpy matplotlib scikit-learn
 
-bash
-Copy code
-pip install pandas numpy matplotlib scikit-learn
-Usage
 <h2>Data Preparation</h2>
 The dataset has been stored in a folder named "Data" within the project directory.
 Update the data_folder and data_file variables to specify the path to your data file.
@@ -28,7 +26,7 @@ Run the script to execute the following steps:
 1. Ensure that your working directory folder is at Appfile folder
 2. In the directoru, run _python churnproject.py_
 
-Contributors
+<h2>Contributors</h2>
 Winston Langat
-License
+<h2>License</h2>
 This project is licensed under the lux Academy copy.
