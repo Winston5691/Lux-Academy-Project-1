@@ -24,16 +24,20 @@ Develop a machine learning model that can predict whether a customer is likely t
 <h1>Outcome:</h1>
 The project aims to provide insights into customer churn and deliver a predictive model that can be used in practice to identify customers at risk of leaving. This allows the telecom company to take proactive measures to retain those customers and ultimately reduce churn rates, which can have a positive impact on business profitability.
 
-<h2>Prerequisites</h2> 
+## Prerequisites
+
 Before running the code, ensure you have the following libraries installed in your Python environment:
-1. pandas
-2. numpy
-3. matplotlib
-4. scikit-learn
+
+- [pandas](https://pandas.pydata.org/)
+- [numpy](https://numpy.org/)
+- [matplotlib](https://matplotlib.org/)
+- [scikit-learn](https://scikit-learn.org/stable/)
+
 You can install these libraries using pip if they are not already installed:
-1. bash
-2. Copy code
-3. pip install pandas numpy matplotlib scikit-learn
+
+```bash
+pip install pandas numpy matplotlib scikit-learn
+
 
 <h2>Data Preparation</h2>
 The dataset has been stored in a folder named "Data" within the project directory.
@@ -46,7 +50,20 @@ Run the script to execute the following steps:
 1. Ensure that your working directory folder is at Appfile folder
 2. In the directoru, run _python churnproject.py_
 
+<h1 align="center"> Code Explanation</a></h1>
+<h1>Import necessary libraries</h1>
+<kbd>
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder, StandardScaler
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, roc_auc_score
+</kbd>
+This part imports the necessary Python libraries and modules for data manipulation, visualization, machine learning, and model evaluation.
+
 <h2>Contributors</h2>
-Winston Langat
+- Winston Langat
 <h2>License</h2>
 This project is licensed under the lux Academy copy.
