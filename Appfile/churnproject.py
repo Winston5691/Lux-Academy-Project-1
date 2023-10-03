@@ -7,13 +7,10 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, roc_auc_score
 
-# Define the path to your data folder and file
-data_folder = r'C:\Users\Njeri\Downloads\LuxProject1\Data'
-data_file = 'telecom_churn.csv'
-data_path = data_folder + '\\' + data_file
+
 
 # Load the dataset from your local directory
-df = pd.read_csv(data_path)
+df = pd.read_csv("../Data/telecom_churn.csv")
 
 # Data Exploration and Preprocessing
 # Check the first few rows of the dataset
